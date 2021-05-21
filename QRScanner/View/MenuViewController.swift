@@ -2,7 +2,6 @@ import UIKit
 
 class MenuViewController: UIViewController {
     
-    var products = [Product]()
     var catalogProducts = Products.hamburgersList
     
     private let tableView: UITableView = {
